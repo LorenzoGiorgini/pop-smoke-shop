@@ -1,0 +1,214 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Gridink Demo;
+    color: hsla(0, 0%, 100%, 0.800);
+    font-weight: normal;
+    background: #121212;
+    letter-spacing: 1.25px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background: #121212;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar #tasti {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.navbar #tasti a h3 {
+    margin: 20px;
+}
+
+.navbar i {
+    margin: 65px;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#logo {
+    width: 250px;
+    height: 80px;
+    display: block;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+    background: transparent;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    top: 0;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: no-repeat center center/cover;
+}
+
+@font-face {
+    font-family: Gridink Demo;
+    src: url(../font/ckhans-fonts-gridink-regular-demo.otf);
+}
+
+#padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#figlio {
+    width: 200px;
+    background: #2f2f2f;
+}
+
+#padre a {
+    margin: 0;
+}
+
+#padre a img {
+    width: 100%;
+    display: block; 
+    background: no-repeat center center/cover; 
+}
+
+.currency {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%,);
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.info-product {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.info-product a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Gridink Demo;
+    color: hsla(0, 0%, 100%,);
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.info-product div {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#peace-sign {
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    pointer-events: none
+}
+
+.description-bar h1 {
+    font-size: 15px;
+    font-family: Gridink Demo;
+    color: hsla(0, 0%, 100%,);
+    font-weight: bold;
+    letter-spacing: 1.25;
+    margin-top: 45px;
+}
+
+#merch {
+    width: 200px;
+    background: #2f2f2f;
+    margin: 15px;
+    position: relative;
+}
+
+.container a {
+    margin: 0;
+}
+
+.container a img {
+    width: 100%;
+    display: block; 
+    background: no-repeat center center/cover; 
+}
+
+#copyright p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+#icon-social i {
+    margin: 12px;
+    
+}
+
+#footer-links a {
+    font-size: 11px;
+    padding-bottom: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+#icon-social i:hover {
+    opacity: 0.7;
+}
+
+#tasti h3:hover {
+    opacity: 0.6;
+}
+
+.navbar i:hover {
+    opacity: 0.6;
+}
+
+#copyright-icon {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
